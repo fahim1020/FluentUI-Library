@@ -1,0 +1,37 @@
+@use "../Utils/variables.scss" as *;
+
+@mixin background-classes {
+  // *Background color classes
+  @each $color in $bg-colors {
+    .bgc-#{$color} {
+      background-color: $color;
+    }
+  }
+
+  // *Background position classes
+  @each $position in $bg-positions {
+    .bgp-#{$position} {
+      background-position: $position;
+    }
+  }
+  // *Background size classes
+  @each $size in $bg-sizes {
+    .bgs-#{$size} {
+      background-size: $size;
+    }
+  }
+
+  // *Background repeat classes
+  @each $repeat in $bg-repeats {
+    .bgr-#{$repeat} {
+      background-repeat: $repeat;
+    }
+  }
+
+  // *Background attachment classes
+  @each $attachment in $bg-attachments {
+    .bga-#{$attachment} {
+      background-attachment: $attachment;
+    }
+  }
+}
