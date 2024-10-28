@@ -1,0 +1,9 @@
+@use "../Utils/variables.scss" as *;
+// *background blend modes classes
+@mixin background-blend-mode-classes {
+  @each $blend-mode in $blend-modes {
+    .bgb-#{$blend-mode} {
+      background-blend-mode: $blend-mode;
+    }
+  }
+}

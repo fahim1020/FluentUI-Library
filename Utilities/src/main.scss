@@ -1,0 +1,12 @@
+// *Import all components
+@use "./components/Alignment.scss" as *;
+@use "./components/Background.scss" as *;
+@use "./components/Background-Blend.scss" as *;
+
+// *Call alignment component
+@include alignment-classes;
+
+// *Call background component
+@include background-classes;
+// *Call background-blend component
+@include background-blend-mode-classes;
