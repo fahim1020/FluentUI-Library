@@ -2,7 +2,7 @@
 
 @mixin background-classes {
   // *Background color classes
-  @each $color in $bg-colors {
+  @each $color in $colors {
     .bgc-#{$color} {
       background-color: $color;
     }

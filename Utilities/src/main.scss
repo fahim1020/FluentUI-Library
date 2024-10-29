@@ -1,7 +1,14 @@
+// *Global Styles
+@use "./global/Global.scss" as *;
 // *Import all components
 @use "./components/Alignment.scss" as *;
 @use "./components/Background.scss" as *;
 @use "./components/Background-Blend.scss" as *;
+@use "./components/Border.scss" as *;
+@use "./components/Box-Shadow.scss" as *;
+@use "./components/Color.scss" as *;
+@use "./components/Display.scss" as *;
+@use "./components/Flex.scss" as *;
 
 // *Call alignment component
 @include alignment-classes;
@@ -10,3 +17,13 @@
 @include background-classes;
 // *Call background-blend component
 @include background-blend-mode-classes;
+// *Call border component
+@include border-classes;
+// *Call box-shadow component
+@include box-shadow-classes;
+// *Call color component
+@include color-classes;
+// *Call display component
+@include display-classes;
+// *Call flex component
+@include flex-direction-classes;

@@ -1,0 +1,8 @@
+@use "../Utils/variables.scss" as *;
+@mixin display-classes {
+  @each $display in $displays {
+    .d-#{$display} {
+      display: $display;
+    }
+  }
+}

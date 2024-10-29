@@ -2,7 +2,7 @@
 // *alignment utility classes
 @mixin alignment-classes {
   @each $alignment in $alignments {
-    .t-#{$alignment} {
+    .ta-#{$alignment} {
       text-align: $alignment;
     }
   }

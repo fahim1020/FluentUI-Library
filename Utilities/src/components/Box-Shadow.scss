@@ -1,0 +1,9 @@
+@use "../Utils/variables.scss" as *;
+// *box shadow utility classes
+@mixin box-shadow-classes {
+  @each $key, $value in $box-shadows {
+    .b-shadow-#{$key} {
+      box-shadow: #{$value};
+    }
+  }
+}
