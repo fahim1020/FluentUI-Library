@@ -1,0 +1,36 @@
+_*Alignment*_
+ta = text-align
+
+_*Background*_
+bgp = Background-position
+bgs = background-size
+bgr = background-repeat
+bga = background-attachment
+
+_*Background Blend Mode*_
+bgb = background-blend-mode
+
+_*Border*_
+border-c = border-color
+border-s = border-style
+border-w = border-width
+border-r = border-radius
+
+_*Box Shadow*_
+b-shadow = box-shadow
+
+_*Color*_
+tc = text-color
+
+_*Display*_
+d = display
+
+_*Flex*_
+flex-d = flex-direction
+jc = justify-content
+ai= align-items
+ac = align-content
+flex-w = flex-wrap
+flex-g = flex-grow
+flex-s = flex-shrink
+order = order
