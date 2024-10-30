@@ -1,0 +1,15 @@
+{
+  "name": "fluentui",
+  "version": "1.0.0",
+  "description": "Another HTML, CSS, JS Library for responsive user interface and components.",
+  "main": "index.js",
+  "scripts": {
+    "css-build": "(sass Utilities/src/main.scss Utilities/dist/fluentui.css && sass Utilities/src/main.scss Utilities/dist/fluentui.min.css --style=compressed)",
+    "css-dev": "sass -w Utilities/src/main.scss Utilities/dist/fluentui.css"
+  },
+  "author": "github.com/fahim1020; github.com/mahdin-hc",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.80.5"
+  }
+}

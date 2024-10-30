@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 Documents
+=======
+Documents
+node_modules/
+>>>>>>> eb49211 (Added package.json, fixed little bugs)
