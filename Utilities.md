@@ -1,31 +1,31 @@
-_*Alignment*_
+### Alignment
 ta = text-align
 
-_*Background*_
+### Background
 bgp = Background-position
 bgs = background-size
 bgr = background-repeat
 bga = background-attachment
 
-_*Background Blend Mode*_
+### Background Blend Mode
 bgb = background-blend-mode
 
-_*Border*_
+### Border
 border-c = border-color
 border-s = border-style
 border-w = border-width
 border-r = border-radius
 
-_*Box Shadow*_
+### Box Shadow
 b-shadow = box-shadow
 
-_*Color*_
+### Color
 tc = text-color
 
-_*Display*_
+### Display
 d = display
 
-_*Flex*_
+### Flex
 flex-d = flex-direction
 jc = justify-content
 ai= align-items
