@@ -1,0 +1,9 @@
+@use "../Utils/variables.scss" as *;
+// *Color utility classes
+@mixin color-classes {
+  @each $color in $colors {
+    .tc-#{$color} {
+      color: $color;
+    }
+  }
+}

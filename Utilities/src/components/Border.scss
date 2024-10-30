@@ -1,0 +1,29 @@
+@use "../Utils/variables.scss" as *;
+
+// *Mixin for border
+@mixin border-classes {
+  // *loop for border color
+  @each $color in $colors {
+    .border-c-#{$color} {
+      border-color: $color;
+    }
+  }
+  // *loop for border styles
+  @each $style in $border-styles {
+    .border-s-#{$style} {
+      border-style: $style;
+    }
+  }
+  // *dynamically generate border width classes
+  @for $i from 0 through $max-border-width {
+    .border-w-#{$i} {
+      border-width: #{$i}px;
+    }
+  }
+  // *dynamically generate border radius classes
+  @for $i from 0 through $max-border-radius {
+    .border-r-#{$i} {
+      border-radius: #{$i}px;
+    }
+  }
+}

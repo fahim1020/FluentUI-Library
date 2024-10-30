@@ -1,0 +1,54 @@
+@use "../Utils/variables.scss" as *;
+@mixin flex-direction-classes {
+  // *flex-direction
+  @each $direction in $flex-directions {
+    .flex-d-#{$direction} {
+      flex-direction: $direction;
+    }
+  }
+  
+  // *justify-content
+  @each $justify in $justify-content {
+    .jc-#{$justify} {
+      justify-content: $justify;
+    }
+  }
+  
+  //*align-items
+  @each $align in $align-items {
+    .ai-#{$align} {
+      align-items: $align;
+    }
+  }
+  //*align-content
+  @each $align in $align-content {
+    .ac-#{$align} {
+      align-content: $align;
+    }
+  }
+  
+  // *flex-wrap
+  @each $wrap in $flex-wrap {
+    .flex-w-#{$wrap} {
+      flex-wrap: $wrap;
+    }
+  }
+  // *flex-grow
+  @each $grow in $flex-grow {
+    .flex-g-#{$grow} {
+      flex-grow: $grow;
+    }
+  }
+  // *flex-shrink
+  @each $shrink in $flex-shrink {
+    .flex-s-#{$shrink} {
+      flex-shrink: $shrink;
+    }
+  }
+  // *order
+  @each $order-value in $order {
+    .order-#{$order-value} {
+      order: $order-value;
+    }
+  }
+}
