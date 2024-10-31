@@ -9,6 +9,8 @@
 @use "./components/Color.scss" as *;
 @use "./components/Display.scss" as *;
 @use "./components/Flex.scss" as *;
+@use "./components/Font.scss" as *;
+@use "./components/Height.scss" as *;
 
 // *Call alignment component
 @include alignment-classes;
@@ -27,3 +29,7 @@
 @include display-classes;
 // *Call flex component
 @include flex-direction-classes;
+// *Call font component
+@include font-classes;
+// *Call height component
+@include height-utilities;

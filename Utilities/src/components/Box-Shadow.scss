@@ -1,9 +1,19 @@
+@use "sass:list";
+
 @use "../Utils/variables.scss" as *;
+
 // *box shadow utility classes
 @mixin box-shadow-classes {
-  @each $key, $value in $box-shadows {
+  @each $key, $values in $box-shadows {
+    $offset-x: list.nth($values, 1);
+    $offset-y: list.nth($values, 2);
+    $blur-radius: list.nth($values, 3);
+    $spread-radius: list.nth($values, 4);
+    $color: list.nth($values, 5);
+    $inset: if(list.nth($values, 6) == true, inset, null);
+
     .b-shadow-#{$key} {
-      box-shadow: #{$value};
+      box-shadow: #{$inset} #{$offset-x} #{$offset-y} #{$blur-radius} #{$spread-radius} #{$color};
     }
   }
 }

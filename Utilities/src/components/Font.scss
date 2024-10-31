@@ -1,0 +1,46 @@
+@use "../Utils/variables.scss" as *;
+@mixin font-classes {
+  //*Font-family
+  @each $font-family in $font-families {
+    .tf-#{$font-family} {
+      font-family: $font-family;
+    }
+  }
+  //*Font-Size
+  @each $key, $value in $sizes {
+    .t-#{$key} {
+      font-size: $value;
+    }
+  }
+
+  //*Font-width
+  @each $font-weight in $font-weights {
+    .fw-#{$font-weight} {
+      font-weight: $font-weight;
+    }
+  }
+  //*font styles
+  @each $font-style in $font-styles {
+    .fs-#{$font-style} {
+      font-style: $font-style;
+    }
+  }
+  //*font variants
+  @each $font-variant in $font-variants {
+    .fv-#{$font-variant} {
+      font-variant: $font-variant;
+    }
+  }
+  // *font stretches
+  @each $font-stretch in $font-stretches {
+    .fstr-#{$font-stretch} {
+      font-stretch: $font-stretch;
+    }
+  }
+  // *line heights
+  @each $key, $value in $sizes {
+    .lh-#{$key} {
+      line-height: $value;
+    }
+  }
+}

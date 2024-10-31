@@ -15,15 +15,16 @@
     }
   }
   // *dynamically generate border width classes
-  @for $i from 0 through $max-border-width {
-    .border-w-#{$i} {
-      border-width: #{$i}px;
+  @each $key, $value in $sizes {
+    .border-w-#{$key} {
+      border-width: $value;
     }
   }
   // *dynamically generate border radius classes
-  @for $i from 0 through $max-border-radius {
-    .border-r-#{$i} {
-      border-radius: #{$i}px;
+
+  @each $key, $value in $sizes {
+    .border-r-#{$key} {
+      border-radius: $value;
     }
   }
 }

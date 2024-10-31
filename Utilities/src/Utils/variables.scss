@@ -143,6 +143,313 @@ $colors: (
   yellowgreen,
   rebeccapurple
 );
+$sizes: (
+  1: 0.125rem,
+  // 2px
+  2: 0.25rem,
+  // 4px
+  3: 0.375rem,
+  // 6px
+  4: 0.5rem,
+  // 8px
+  5: 0.625rem,
+  // 10px
+  6: 0.75rem,
+  // 12px
+  7: 0.875rem,
+  // 14px
+  8: 1rem,
+  // 16px
+  9: 1.125rem,
+  // 18px
+  10: 1.25rem,
+  // 20px
+  11: 1.375rem,
+  // 22px
+  12: 1.5rem,
+  // 24px
+  13: 1.625rem,
+  // 26px
+  14: 1.75rem,
+  // 28px
+  15: 1.875rem,
+  // 30px
+  16: 2rem,
+  // 32px
+  17: 2.125rem,
+  // 34px
+  18: 2.25rem,
+  // 36px
+  19: 2.375rem,
+  // 38px
+  20: 2.5rem,
+  // 40px
+  21: 2.625rem,
+  // 42px
+  22: 2.75rem,
+  // 44px
+  23: 2.875rem,
+  // 46px
+  24: 3rem,
+  // 48px
+  25: 3.125rem,
+  // 50px
+  26: 3.25rem,
+  // 52px
+  27: 3.375rem,
+  // 54px
+  28: 3.5rem,
+  // 56px
+  29: 3.625rem,
+  // 58px
+  30: 3.75rem,
+  // 60px
+  31: 3.875rem,
+  // 62px
+  32: 4rem,
+  // 64px
+  33: 4.125rem,
+  // 66px
+  34: 4.25rem,
+  // 68px
+  35: 4.375rem,
+  // 70px
+  36: 4.5rem,
+  // 72px
+  37: 4.625rem,
+  // 74px
+  38: 4.75rem,
+  // 76px
+  39: 4.875rem,
+  // 78px
+  40: 5rem,
+  // 80px
+  41: 5.125rem,
+  // 82px
+  42: 5.25rem,
+  // 84px
+  43: 5.375rem,
+  // 86px
+  44: 5.5rem,
+  // 88px
+  45: 5.625rem,
+  // 90px
+  46: 5.75rem,
+  // 92px
+  47: 5.875rem,
+  // 94px
+  48: 6rem,
+  // 96px
+  49: 6.125rem,
+  // 98px
+  50: 6.25rem,
+  // 100px
+  51: 6.375rem,
+  // 102px
+  52: 6.5rem,
+  // 104px
+  53: 6.625rem,
+  // 106px
+  54: 6.75rem,
+  // 108px
+  55: 6.875rem,
+  // 110px
+  56: 7rem,
+  // 112px
+  57: 7.125rem,
+  // 114px
+  58: 7.25rem,
+  // 116px
+  59: 7.375rem,
+  // 118px
+  60: 7.5rem,
+  // 120px
+  61: 7.625rem,
+  // 122px
+  62: 7.75rem,
+  // 124px
+  63: 7.875rem,
+  // 126px
+  64: 8rem,
+  // 128px
+  65: 8.125rem,
+  // 130px
+  66: 8.25rem,
+  // 132px
+  67: 8.375rem,
+  // 134px
+  68: 8.5rem,
+  // 136px
+  69: 8.625rem,
+  // 138px
+  70: 8.75rem,
+  // 140px
+  71: 8.875rem,
+  // 142px
+  72: 9rem,
+  // 144px
+  73: 9.125rem,
+  // 146px
+  74: 9.25rem,
+  // 148px
+  75: 9.375rem,
+  // 150px
+  76: 9.5rem,
+  // 152px
+  77: 9.625rem,
+  // 154px
+  78: 9.75rem,
+  // 156px
+  79: 9.875rem,
+  // 158px
+  80: 10rem,
+  // 160px
+  81: 10.125rem,
+  // 162px
+  82: 10.25rem,
+  // 164px
+  83: 10.375rem,
+  // 166px
+  84: 10.5rem,
+  // 168px
+  85: 10.625rem,
+  // 170px
+  86: 10.75rem,
+  // 172px
+  87: 10.875rem,
+  // 174px
+  88: 11rem,
+  // 176px
+  89: 11.125rem,
+  // 178px
+  90: 11.25rem,
+  // 180px
+  91: 11.375rem,
+  // 182px
+  92: 11.5rem,
+  // 184px
+  93: 11.625rem,
+  // 186px
+  94: 11.75rem,
+  // 188px
+  95: 11.875rem,
+  // 190px
+  96: 12rem,
+  // 192px
+  97: 12.125rem,
+  // 194px
+  98: 12.25rem,
+  // 196px
+  99: 12.375rem,
+  // 198px
+  100: 12.5rem,
+  // 200px
+  101: 12.625rem,
+  // 202px
+  102: 12.75rem,
+  // 204px
+  103: 12.875rem,
+  // 206px
+  104: 13rem,
+  // 208px
+  105: 13.125rem,
+  // 210px
+  106: 13.25rem,
+  // 212px
+  107: 13.375rem,
+  // 214px
+  108: 13.5rem,
+  // 216px
+  109: 13.625rem,
+  // 218px
+  110: 13.75rem,
+  // 220px
+  111: 13.875rem,
+  // 222px
+  112: 14rem,
+  // 224px
+  113: 14.125rem,
+  // 226px
+  114: 14.25rem,
+  // 228px
+  115: 14.375rem,
+  // 230px
+  116: 14.5rem,
+  // 232px
+  117: 14.625rem,
+  // 234px
+  118: 14.75rem,
+  // 236px
+  119: 14.875rem,
+  // 238px
+  120: 15rem,
+  // 240px
+  121: 15.125rem,
+  // 242px
+  122: 15.25rem,
+  // 244px
+  123: 15.375rem,
+  // 246px
+  124: 15.5rem,
+  // 248px
+  125: 15.625rem,
+  // 250px
+  126: 15.75rem,
+  // 252px
+  127: 15.875rem,
+  // 254px
+  128: 16rem,
+  // 256px
+  129: 16.125rem,
+  // 258px
+  130: 16.25rem,
+  // 260px
+  131: 16.375rem,
+  // 262px
+  132: 16.5rem,
+  // 264px
+  133: 16.625rem,
+  // 266px
+  134: 16.75rem,
+  // 268px
+  135: 16.875rem,
+  // 270px
+  136: 17rem,
+  // 272px
+  137: 17.125rem,
+  // 274px
+  138: 17.25rem,
+  // 276px
+  139: 17.375rem,
+  // 278px
+  140: 17.5rem,
+  // 280px
+  141: 17.625rem,
+  // 282px
+  142: 17.75rem,
+  // 284px
+  143: 17.875rem,
+  // 286px
+  144: 18rem,
+  // 288px
+  145: 18.125rem,
+  // 290px
+  146: 18.25rem,
+  // 292px
+  147: 18.375rem,
+  // 294px
+  148: 18.5rem,
+  // 296px
+  149: 18.625rem,
+  // 298px
+  150: 18.75rem,
+
+  // 300px
+  "full": 100%,
+  // 100%
+  "auto": auto,
+  "screen": 100vh,
+);
 
 // *Background positions
 $bg-positions: left, center, right, top, bottom;
@@ -166,45 +473,71 @@ $max-border-radius: 1000px;
 // *box shadow styles
 $box-shadows: (
   "sm": (
-    1px,
-    1px,
     2px,
+    2px,
+    4px,
     0px,
     rgba(0, 0, 0, 0.1),
     false,
   ),
   "md": (
-    3px,
-    3px,
-    6px,
+    4px,
+    4px,
+    8px,
     0px,
     rgba(0, 0, 0, 0.15),
     false,
   ),
-  "lg": (
-    5px,
-    5px,
-    10px,
-    0px,
-    rgba(0, 0, 0, 0.2),
-    false,
-  ),
-  "xl": (
-    8px,
-    8px,
-    16px,
-    2px,
-    rgba(0, 0, 0, 0.25),
-    false,
-  ),
-  "inset": (
-    2px,
-    2px,
-    4px,
-    0px,
-    rgba(0, 0, 0, 0.3),
-    true,
-  ),
+  // sm + increment
+  "lg":
+    (
+      8px,
+      8px,
+      16px,
+      0px,
+      rgba(0, 0, 0, 0.2),
+      false,
+    ),
+  // md + increment
+  "xl":
+    (
+      12px,
+      12px,
+      24px,
+      4px,
+      rgba(0, 0, 0, 0.3),
+      false,
+    ),
+  // lg + increment
+  "2xl":
+    (
+      16px,
+      16px,
+      32px,
+      6px,
+      rgba(0, 0, 0, 0.35),
+      false,
+    ),
+  // xl + increment
+  "3xl":
+    (
+      24px,
+      24px,
+      48px,
+      8px,
+      rgba(0, 0, 0, 0.4),
+      false,
+    ),
+  // 2xl + increment
+  "inset":
+    (
+      4px,
+      4px,
+      8px,
+      0px,
+      rgba(0, 0, 0, 0.3),
+      true,
+    ),
 );
 
 // *displays
@@ -216,6 +549,69 @@ $justify-content: flex-start, flex-end, center, space-between, space-around;
 $align-items: stretch, flex-start, flex-end, center, baseline;
 $align-content: flex-start, flex-end, center, space-between, space-around;
 $flex-wrap: nowrap, wrap, wrap-reverse;
-$flex-grow: 0, 1; 
-$flex-shrink: 0, 1; 
+$flex-grow: 0, 1;
+$flex-shrink: 0, 1;
 $order: 0, 1, 2, 3, 4, 5;
+
+// *Font properties
+$font-families: (
+  // Serif fonts
+  "Georgia",
+  "Garamond",
+  "Palatino",
+  "Bookman",
+  "Baskerville",
+  "Didot",
+  "Cambria",
+  "Constantia",
+  // ?Sans-serif fonts
+  "Arial",
+  "Helvetica",
+  "Verdana",
+  "Tahoma",
+  "Geneva",
+  //? Monospace fonts
+  "Monaco",
+  "Consolas",
+  // ?Fantasy fonts
+  "Impact",
+  "Jokerman",
+  "Algerian",
+  "Papyrus",
+  "Copperplate",
+  //? Generic families
+  serif,
+  sans-serif,
+  monospace,
+  cursive,
+  fantasy
+);
+
+$font-weights: (
+  normal,
+  bold,
+  bolder,
+  lighter,
+  100,
+  200,
+  300,
+  400,
+  500,
+  600,
+  700,
+  800,
+  900
+);
+$font-styles: (normal, italic, oblique);
+$font-variants: (normal, small-caps);
+$font-stretches: (
+  ultra-condensed,
+  extra-condensed,
+  condensed,
+  semi-condensed,
+  normal,
+  semi-expanded,
+  expanded,
+  extra-expanded,
+  ultra-expanded
+);

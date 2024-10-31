@@ -1,0 +1,8 @@
+@use "../Utils/variables.scss" as *;
+@mixin height-utilities {
+  @each $key, $value in $sizes {
+    .h-#{$key} {
+      height: $value;
+    }
+  }
+}
