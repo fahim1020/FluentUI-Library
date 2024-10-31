@@ -1,0 +1,8 @@
+@use "../Utils/variables.scss" as *;
+@mixin z-index-classes {
+  @each $key, $value in $z-index-values {
+    .zi-#{$key} {
+      z-index: $value;
+    }
+  }
+}

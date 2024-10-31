@@ -53,3 +53,35 @@ fs = font-size
 fv = font-variant
 fstr = font-stretch
 lh = line-height
+
+### Margin
+
+mt =margin-top
+mr = margin-right
+mb = margin-bottom
+ml = margin-left
+
+### Overflow
+
+of = overflow
+
+### Position
+
+pos = position
+
+### width
+
+w = width
+
+### Visibility
+
+v = visibility
+
+### z-index
+
+zi = z-index
+
+### List
+
+l = list
+lp = list-position

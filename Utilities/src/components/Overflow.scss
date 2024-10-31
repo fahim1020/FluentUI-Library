@@ -1,0 +1,8 @@
+@use "../Utils/variables.scss" as *;
+@mixin overflow-classes {
+  @each $key, $value in $overflows {
+    .of-#{$key} {
+      overflow: $value;
+    }
+  }
+}

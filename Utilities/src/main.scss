@@ -1,5 +1,6 @@
 // *Global Styles
 @use "./global/Global.scss" as *;
+
 // *Import all components
 @use "./components/Alignment.scss" as *;
 @use "./components/Background.scss" as *;
@@ -11,6 +12,15 @@
 @use "./components/Flex.scss" as *;
 @use "./components/Font.scss" as *;
 @use "./components/Height.scss" as *;
+@use "./components/Margin.scss" as *;
+@use "./components/Overflow.scss" as *;
+@use "./components/Padding.scss" as *;
+@use "./components/Position.scss" as *;
+@use "./components/Width.scss" as *;
+@use "./components/Visibility.scss" as *;
+@use "./components/ZIndex.scss" as *;
+@use "./components/Cursor.scss" as *;
+@use "./components/List.scss" as *;
 
 // *Call alignment component
 @include alignment-classes;
@@ -33,3 +43,21 @@
 @include font-classes;
 // *Call height component
 @include height-utilities;
+// *Call margin component
+@include margin-classes;
+// *Call margin component
+@include overflow-classes;
+// *Call padding component
+@include padding-classes;
+// *Call position component
+@include position-classes;
+// *Call width component
+@include width-classes;
+// *Call width component
+@include visibility-classes;
+// *Call width component
+@include z-index-classes;
+// *Call width component
+@include cursor-classes;
+// *Call width component
+@include list-classes;

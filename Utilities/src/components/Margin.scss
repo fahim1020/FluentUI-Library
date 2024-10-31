@@ -1,0 +1,28 @@
+@use "../Utils/variables.scss" as *;
+
+@mixin margin-classes {
+  @each $key, $value in $sizes {
+    @if ($key!= screen) {
+      .mt-#{$key} {
+        margin-top: $value;
+      }
+      .mb-#{$key} {
+        margin-bottom: $value;
+      }
+      .mr-#{$key} {
+        margin-right: $value;
+      }
+      .ml-#{$key} {
+        margin-left: $value;
+      }
+      .mx-#{$key} {
+        margin-left: $value;
+        margin-right: $value;
+      }
+      .my-#{$key} {
+        margin-top: $value;
+        margin-bottom: $value;
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+@use "../Utils/variables.scss" as *;
+@mixin cursor-classes {
+  @each $key, $value in $cursor-styles {
+    .c-#{$key} {
+      cursor: $value;
+    }
+  }
+}

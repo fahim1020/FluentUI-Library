@@ -615,3 +615,68 @@ $font-stretches: (
   extra-expanded,
   ultra-expanded
 );
+
+//*Overflow
+$overflows: (
+  "visible": visible,
+  "hidden": hidden,
+  "scroll": scroll,
+  "auto": auto,
+);
+
+// *Position
+$positions: (
+  static: static,
+  relative: relative,
+  absolute: absolute,
+  fixed: fixed,
+  sticky: sticky,
+);
+
+//*Width
+$visibility-values: (
+  visible: visible,
+  hidden: hidden,
+  collapse: collapse,
+);
+
+// *z-index
+$z-index-values: (
+  auto: auto,
+  0: -1,
+  1: 1,
+  2: 2,
+  3: 3,
+  4: 4,
+  5: 5,
+  10: 10,
+  20: 20,
+  30: 30,
+  40: 40,
+  50: 50,
+);
+// * cursor styles
+$cursor-styles: (
+  default: default,
+  pointer: pointer,
+  move: move,
+  text: text,
+  wait: wait,
+  not-allowed: not-allowed,
+  help: help,
+  crosshair: crosshair,
+);
+// *list style types, positions
+$list-types: (
+  disc: disc,
+  circle: circle,
+  square: square,
+  decimal: decimal,
+  upper-alpha: upper-alpha,
+  lower-alpha: lower-alpha,
+);
+
+$list-positions: (
+  inside: inside,
+  outside: outside,
+);

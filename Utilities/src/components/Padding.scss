@@ -1,0 +1,28 @@
+@use "../Utils/variables.scss" as *;
+
+@mixin padding-classes {
+  @each $key, $value in $sizes {
+    @if ($key != "screen") {
+      .pt-#{$key} {
+        padding-top: $value;
+      }
+      .pb-#{$key} {
+        padding-bottom: $value;
+      }
+      .pr-#{$key} {
+        padding-right: $value;
+      }
+      .pl-#{$key} {
+        padding-left: $value;
+      }
+      .px-#{$key} {
+        padding-left: $value;
+        padding-right: $value;
+      }
+      .py-#{$key} {
+        padding-top: $value;
+        padding-bottom: $value;
+      }
+    }
+  }
+}

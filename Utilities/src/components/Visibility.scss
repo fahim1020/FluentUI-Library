@@ -1,0 +1,8 @@
+@use "../Utils/variables.scss" as *;
+@mixin visibility-classes {
+  @each $key, $value in $visibility-values {
+    .v-#{$key} {
+      visibility: $value;
+    }
+  }
+}

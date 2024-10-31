@@ -1,0 +1,18 @@
+@use "../Utils/variables.scss" as *;
+@mixin list-classes {
+    
+  // *list-style-type classes
+  @each $key, $value in $list-types {
+    .l-#{$key} {
+      list-style-type: $value;
+    }
+  }
+
+  // *list-style-position classes
+
+  @each $key, $value in $list-positions {
+    .lp-#{$key} {
+      list-style-position: $value;
+    }
+  }
+}

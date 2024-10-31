@@ -1,0 +1,8 @@
+@use "../Utils/variables.scss" as *;
+@mixin position-classes {
+  @each $key, $value in $positions {
+    .pos-#{$key} {
+      position: $value;
+    }
+  }
+}
