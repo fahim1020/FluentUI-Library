@@ -1,0 +1,10 @@
+@use "../Utils/variables.scss" as *;
+@mixin flex-gap-classes {
+  @each $key, $value in $sizes {
+    @if ($key != "sreen") {
+      .g-#{$key} {
+        gap: #{$value};
+      }
+    }
+  }
+}

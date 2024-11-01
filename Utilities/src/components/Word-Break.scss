@@ -1,0 +1,8 @@
+@use "../Utils/variables.scss" as *;
+@mixin word-break-classes {
+ @each $key, $value in $word-break-values {
+    .wb-#{$key} {
+      word-break: $value;
+    }
+  }
+}

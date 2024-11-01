@@ -1,0 +1,8 @@
+@use "../Utils/variables.scss" as *;
+@mixin overflow-classes {
+  @each $wrap-type in $overflow-wrap-values {
+    .ofw-#{$wrap-type} {
+      overflow-wrap: #{$wrap-type};
+    }
+  }
+}

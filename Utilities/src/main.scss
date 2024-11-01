@@ -21,6 +21,14 @@
 @use "./components/ZIndex.scss" as *;
 @use "./components/Cursor.scss" as *;
 @use "./components/List.scss" as *;
+@use "./components/Text-Overflow.scss" as *;
+@use "./components/Overflow-Wrap.scss" as *;
+@use "./components/White-Space.scss" as *;
+@use "./components/Flex-Gap.scss" as *;
+@use "./components/Table-Layout.scss" as *;
+@use "./components/Fill.scss" as *;
+@use "./components/Opacity.scss" as *;
+@use "./components/Word-Break.scss" as *;
 
 // *Call alignment component
 @include alignment-classes;
@@ -53,11 +61,27 @@
 @include position-classes;
 // *Call width component
 @include width-classes;
-// *Call width component
+// *Call visibility component
 @include visibility-classes;
-// *Call width component
+// *Call z-index component
 @include z-index-classes;
-// *Call width component
+// *Call cursor component
 @include cursor-classes;
-// *Call width component
+// *Call list component
 @include list-classes;
+// *Call text-overflow component
+@include text-overflow-classes;
+// *Call overflow-wrap component
+@include overflow-wrap-classes;
+// *Call white-space component
+@include white-space-classes;
+// *Call flex-gap component
+@include flex-gap-classes;
+// *Call table-layout component
+@include table-layout-classes;
+// *Call fill component
+@include fill-classes;
+// *Call opacity component
+@include opacity-classes;
+// *Call word-break component
+@include word-break-classes;

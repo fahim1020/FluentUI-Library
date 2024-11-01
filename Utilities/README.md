@@ -65,6 +65,7 @@ ml = margin-left
 
 of = overflow
 
+
 ### Position
 
 pos = position
@@ -85,3 +86,16 @@ zi = z-index
 
 l = list
 lp = list-position
+
+### overflow-wrap
+ofw = overflow-wrap
+
+### text-overflow
+tof = text-overflow
+
+### table
+tb = table
+
+### word-break
+wb = word-break
+

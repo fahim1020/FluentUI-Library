@@ -1,0 +1,9 @@
+@use "../Utils/variables.scss" as *;
+@mixin fill-classes {
+  @each $key, $value in $colors {
+    .f-#{$key} {
+      fill: $value;
+    }
+  }
+}
+

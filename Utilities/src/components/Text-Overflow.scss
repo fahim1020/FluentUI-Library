@@ -1,0 +1,8 @@
+@use "../Utils/variables.scss" as *;
+@mixin text-overflow-classes {
+  @each $overflow-type in $text-overflow-values {
+    .tof-#{$overflow-type} {
+      text-overflow: #{$overflow-type};
+    }
+  }
+}

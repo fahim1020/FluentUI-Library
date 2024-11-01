@@ -1,0 +1,8 @@
+@use "../Utils/variables.scss" as *;
+@mixin opacity-classes {
+  @each $key, $value in $opacity {
+    .op-#{$key} {
+      opacity: $value;
+    }
+  }
+}

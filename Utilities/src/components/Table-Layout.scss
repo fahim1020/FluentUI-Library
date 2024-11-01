@@ -1,0 +1,10 @@
+@use "../Utils/variables.scss" as *;
+@mixin table-layout-classes {
+  .tb-auto {
+    table-layout: auto;
+  }
+
+  .tb-fixed {
+    table-layout: fixed;
+  }
+}

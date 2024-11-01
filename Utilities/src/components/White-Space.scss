@@ -1,0 +1,8 @@
+@use "../Utils/variables.scss" as *;
+@mixin white-space-classes {
+  @each $space-type in $white-space-values {
+    .ws-#{$space-type} {
+      white-space: #{$space-type};
+    }
+  }
+}

@@ -6,14 +6,14 @@
       flex-direction: $direction;
     }
   }
-  
+
   // *justify-content
   @each $justify in $justify-content {
     .jc-#{$justify} {
       justify-content: $justify;
     }
   }
-  
+
   //*align-items
   @each $align in $align-items {
     .ai-#{$align} {
@@ -26,7 +26,12 @@
       align-content: $align;
     }
   }
-  
+  //*Align-self
+  @each $key, $value in $align-self-values {
+    .as-#{$key} {
+      align-self: $value;
+    }
+  }
   // *flex-wrap
   @each $wrap in $flex-wrap {
     .flex-w-#{$wrap} {

@@ -680,3 +680,40 @@ $list-positions: (
   inside: inside,
   outside: outside,
 );
+
+// *overflow-wrap
+$overflow-wrap-values: normal, break-word;
+
+// *text-overflow
+$text-overflow-values: clip, ellipsis;
+// *white-space
+$white-space-values: normal, nowrap, pre, pre-line, pre-wrap;
+// *Opacity
+$opacity: (
+  0: 0,
+  1: 0.25,
+  2: 0.5,
+  3: 0.75,
+  4: 1,
+);
+// *break-values
+$break-values: (
+  normal: normal,
+  word: word,
+  all: all
+);
+// *word-break
+$word-break-values: (
+  normal: normal,
+  break-all: break-all,
+  keep-all: keep-all
+);
+// *align-self
+$align-self-values: (
+  auto: auto,
+  flex-start: flex-start,
+  flex-end: flex-end,
+  center: center,
+  baseline: baseline,
+  stretch: stretch
+);

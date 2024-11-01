@@ -3228,6 +3228,30 @@
   align-content: space-around;
 }
 
+.as-auto {
+  align-self: auto;
+}
+
+.as-flex-start {
+  align-self: flex-start;
+}
+
+.as-flex-end {
+  align-self: flex-end;
+}
+
+.as-center {
+  align-self: center;
+}
+
+.as-baseline {
+  align-self: baseline;
+}
+
+.as-stretch {
+  align-self: stretch;
+}
+
 .flex-w-nowrap {
   flex-wrap: nowrap;
 }
@@ -9276,20 +9300,12 @@
   margin-bottom: auto;
 }
 
-.of-visible {
-  overflow: visible;
+.ofw-normal {
+  overflow-wrap: normal;
 }
 
-.of-hidden {
-  overflow: hidden;
-}
-
-.of-scroll {
-  overflow: scroll;
-}
-
-.of-auto {
-  overflow: auto;
+.ofw-break-word {
+  overflow-wrap: break-word;
 }
 
 .pt-1 {
@@ -13998,6 +14014,702 @@
 
 .lp-outside {
   list-style-position: outside;
+}
+
+.tof-clip {
+  text-overflow: clip;
+}
+
+.tof-ellipsis {
+  text-overflow: ellipsis;
+}
+
+.of-visible {
+  overflow: visible;
+}
+
+.of-hidden {
+  overflow: hidden;
+}
+
+.of-scroll {
+  overflow: scroll;
+}
+
+.of-auto {
+  overflow: auto;
+}
+
+.ws-normal {
+  white-space: normal;
+}
+
+.ws-nowrap {
+  white-space: nowrap;
+}
+
+.ws-pre {
+  white-space: pre;
+}
+
+.ws-pre-line {
+  white-space: pre-line;
+}
+
+.ws-pre-wrap {
+  white-space: pre-wrap;
+}
+
+.g-1 {
+  gap: 0.125rem;
+}
+
+.g-2 {
+  gap: 0.25rem;
+}
+
+.g-3 {
+  gap: 0.375rem;
+}
+
+.g-4 {
+  gap: 0.5rem;
+}
+
+.g-5 {
+  gap: 0.625rem;
+}
+
+.g-6 {
+  gap: 0.75rem;
+}
+
+.g-7 {
+  gap: 0.875rem;
+}
+
+.g-8 {
+  gap: 1rem;
+}
+
+.g-9 {
+  gap: 1.125rem;
+}
+
+.g-10 {
+  gap: 1.25rem;
+}
+
+.g-11 {
+  gap: 1.375rem;
+}
+
+.g-12 {
+  gap: 1.5rem;
+}
+
+.g-13 {
+  gap: 1.625rem;
+}
+
+.g-14 {
+  gap: 1.75rem;
+}
+
+.g-15 {
+  gap: 1.875rem;
+}
+
+.g-16 {
+  gap: 2rem;
+}
+
+.g-17 {
+  gap: 2.125rem;
+}
+
+.g-18 {
+  gap: 2.25rem;
+}
+
+.g-19 {
+  gap: 2.375rem;
+}
+
+.g-20 {
+  gap: 2.5rem;
+}
+
+.g-21 {
+  gap: 2.625rem;
+}
+
+.g-22 {
+  gap: 2.75rem;
+}
+
+.g-23 {
+  gap: 2.875rem;
+}
+
+.g-24 {
+  gap: 3rem;
+}
+
+.g-25 {
+  gap: 3.125rem;
+}
+
+.g-26 {
+  gap: 3.25rem;
+}
+
+.g-27 {
+  gap: 3.375rem;
+}
+
+.g-28 {
+  gap: 3.5rem;
+}
+
+.g-29 {
+  gap: 3.625rem;
+}
+
+.g-30 {
+  gap: 3.75rem;
+}
+
+.g-31 {
+  gap: 3.875rem;
+}
+
+.g-32 {
+  gap: 4rem;
+}
+
+.g-33 {
+  gap: 4.125rem;
+}
+
+.g-34 {
+  gap: 4.25rem;
+}
+
+.g-35 {
+  gap: 4.375rem;
+}
+
+.g-36 {
+  gap: 4.5rem;
+}
+
+.g-37 {
+  gap: 4.625rem;
+}
+
+.g-38 {
+  gap: 4.75rem;
+}
+
+.g-39 {
+  gap: 4.875rem;
+}
+
+.g-40 {
+  gap: 5rem;
+}
+
+.g-41 {
+  gap: 5.125rem;
+}
+
+.g-42 {
+  gap: 5.25rem;
+}
+
+.g-43 {
+  gap: 5.375rem;
+}
+
+.g-44 {
+  gap: 5.5rem;
+}
+
+.g-45 {
+  gap: 5.625rem;
+}
+
+.g-46 {
+  gap: 5.75rem;
+}
+
+.g-47 {
+  gap: 5.875rem;
+}
+
+.g-48 {
+  gap: 6rem;
+}
+
+.g-49 {
+  gap: 6.125rem;
+}
+
+.g-50 {
+  gap: 6.25rem;
+}
+
+.g-51 {
+  gap: 6.375rem;
+}
+
+.g-52 {
+  gap: 6.5rem;
+}
+
+.g-53 {
+  gap: 6.625rem;
+}
+
+.g-54 {
+  gap: 6.75rem;
+}
+
+.g-55 {
+  gap: 6.875rem;
+}
+
+.g-56 {
+  gap: 7rem;
+}
+
+.g-57 {
+  gap: 7.125rem;
+}
+
+.g-58 {
+  gap: 7.25rem;
+}
+
+.g-59 {
+  gap: 7.375rem;
+}
+
+.g-60 {
+  gap: 7.5rem;
+}
+
+.g-61 {
+  gap: 7.625rem;
+}
+
+.g-62 {
+  gap: 7.75rem;
+}
+
+.g-63 {
+  gap: 7.875rem;
+}
+
+.g-64 {
+  gap: 8rem;
+}
+
+.g-65 {
+  gap: 8.125rem;
+}
+
+.g-66 {
+  gap: 8.25rem;
+}
+
+.g-67 {
+  gap: 8.375rem;
+}
+
+.g-68 {
+  gap: 8.5rem;
+}
+
+.g-69 {
+  gap: 8.625rem;
+}
+
+.g-70 {
+  gap: 8.75rem;
+}
+
+.g-71 {
+  gap: 8.875rem;
+}
+
+.g-72 {
+  gap: 9rem;
+}
+
+.g-73 {
+  gap: 9.125rem;
+}
+
+.g-74 {
+  gap: 9.25rem;
+}
+
+.g-75 {
+  gap: 9.375rem;
+}
+
+.g-76 {
+  gap: 9.5rem;
+}
+
+.g-77 {
+  gap: 9.625rem;
+}
+
+.g-78 {
+  gap: 9.75rem;
+}
+
+.g-79 {
+  gap: 9.875rem;
+}
+
+.g-80 {
+  gap: 10rem;
+}
+
+.g-81 {
+  gap: 10.125rem;
+}
+
+.g-82 {
+  gap: 10.25rem;
+}
+
+.g-83 {
+  gap: 10.375rem;
+}
+
+.g-84 {
+  gap: 10.5rem;
+}
+
+.g-85 {
+  gap: 10.625rem;
+}
+
+.g-86 {
+  gap: 10.75rem;
+}
+
+.g-87 {
+  gap: 10.875rem;
+}
+
+.g-88 {
+  gap: 11rem;
+}
+
+.g-89 {
+  gap: 11.125rem;
+}
+
+.g-90 {
+  gap: 11.25rem;
+}
+
+.g-91 {
+  gap: 11.375rem;
+}
+
+.g-92 {
+  gap: 11.5rem;
+}
+
+.g-93 {
+  gap: 11.625rem;
+}
+
+.g-94 {
+  gap: 11.75rem;
+}
+
+.g-95 {
+  gap: 11.875rem;
+}
+
+.g-96 {
+  gap: 12rem;
+}
+
+.g-97 {
+  gap: 12.125rem;
+}
+
+.g-98 {
+  gap: 12.25rem;
+}
+
+.g-99 {
+  gap: 12.375rem;
+}
+
+.g-100 {
+  gap: 12.5rem;
+}
+
+.g-101 {
+  gap: 12.625rem;
+}
+
+.g-102 {
+  gap: 12.75rem;
+}
+
+.g-103 {
+  gap: 12.875rem;
+}
+
+.g-104 {
+  gap: 13rem;
+}
+
+.g-105 {
+  gap: 13.125rem;
+}
+
+.g-106 {
+  gap: 13.25rem;
+}
+
+.g-107 {
+  gap: 13.375rem;
+}
+
+.g-108 {
+  gap: 13.5rem;
+}
+
+.g-109 {
+  gap: 13.625rem;
+}
+
+.g-110 {
+  gap: 13.75rem;
+}
+
+.g-111 {
+  gap: 13.875rem;
+}
+
+.g-112 {
+  gap: 14rem;
+}
+
+.g-113 {
+  gap: 14.125rem;
+}
+
+.g-114 {
+  gap: 14.25rem;
+}
+
+.g-115 {
+  gap: 14.375rem;
+}
+
+.g-116 {
+  gap: 14.5rem;
+}
+
+.g-117 {
+  gap: 14.625rem;
+}
+
+.g-118 {
+  gap: 14.75rem;
+}
+
+.g-119 {
+  gap: 14.875rem;
+}
+
+.g-120 {
+  gap: 15rem;
+}
+
+.g-121 {
+  gap: 15.125rem;
+}
+
+.g-122 {
+  gap: 15.25rem;
+}
+
+.g-123 {
+  gap: 15.375rem;
+}
+
+.g-124 {
+  gap: 15.5rem;
+}
+
+.g-125 {
+  gap: 15.625rem;
+}
+
+.g-126 {
+  gap: 15.75rem;
+}
+
+.g-127 {
+  gap: 15.875rem;
+}
+
+.g-128 {
+  gap: 16rem;
+}
+
+.g-129 {
+  gap: 16.125rem;
+}
+
+.g-130 {
+  gap: 16.25rem;
+}
+
+.g-131 {
+  gap: 16.375rem;
+}
+
+.g-132 {
+  gap: 16.5rem;
+}
+
+.g-133 {
+  gap: 16.625rem;
+}
+
+.g-134 {
+  gap: 16.75rem;
+}
+
+.g-135 {
+  gap: 16.875rem;
+}
+
+.g-136 {
+  gap: 17rem;
+}
+
+.g-137 {
+  gap: 17.125rem;
+}
+
+.g-138 {
+  gap: 17.25rem;
+}
+
+.g-139 {
+  gap: 17.375rem;
+}
+
+.g-140 {
+  gap: 17.5rem;
+}
+
+.g-141 {
+  gap: 17.625rem;
+}
+
+.g-142 {
+  gap: 17.75rem;
+}
+
+.g-143 {
+  gap: 17.875rem;
+}
+
+.g-144 {
+  gap: 18rem;
+}
+
+.g-145 {
+  gap: 18.125rem;
+}
+
+.g-146 {
+  gap: 18.25rem;
+}
+
+.g-147 {
+  gap: 18.375rem;
+}
+
+.g-148 {
+  gap: 18.5rem;
+}
+
+.g-149 {
+  gap: 18.625rem;
+}
+
+.g-150 {
+  gap: 18.75rem;
+}
+
+.g-full {
+  gap: 100%;
+}
+
+.g-auto {
+  gap: auto;
+}
+
+.g-screen {
+  gap: 100vh;
+}
+
+.tb-auto {
+  table-layout: auto;
+}
+
+.tb-fixed {
+  table-layout: fixed;
+}
+
+.op-0 {
+  opacity: 0;
+}
+
+.op-1 {
+  opacity: 0.25;
+}
+
+.op-2 {
+  opacity: 0.5;
+}
+
+.op-3 {
+  opacity: 0.75;
+}
+
+.op-4 {
+  opacity: 1;
+}
+
+.wb-normal {
+  word-break: normal;
+}
+
+.wb-break-all {
+  word-break: break-all;
+}
+
+.wb-keep-all {
+  word-break: keep-all;
 }
 
 /*# sourceMappingURL=fluentui.css.map */
