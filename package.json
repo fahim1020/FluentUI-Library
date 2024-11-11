@@ -6,8 +6,7 @@
   "scripts": {
     "css-build": "(sass Utilities/src/main.scss Utilities/dist/fluentui.css && sass Utilities/src/main.scss Utilities/dist/fluentui.min.css --style=compressed)",
     "css-dev": "sass -w Utilities/src/main.scss Utilities/dist/fluentui.css",
-    "js-build": "esbuild Utilities/src/index.js --bundle --outfile=Utilities/dist/fluentui.js --format=esm",
-    "js-dev": "esbuild Utilities/src/index.js --bundle --outfile=Utilities/dist/fluentui.js --format=esm --watch"
+    "js-build": "esbuild Utilities/dist/fluentui.js --bundle --outfile=Utilities/dist/fluentui.min.js --format=esm --minify"
   },
   "author": "github.com/fahim1020; github.com/mahdin-hc",
   "license": "ISC",

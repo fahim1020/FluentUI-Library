@@ -1,33 +1,92 @@
-// Utilities/src/Scripts/dynamicStyles.js
-function applyDynamic() {
-  document.querySelectorAll('[class*="border-"]').forEach(function(element) {
-    let borderClass = Array.from(element.classList).find((cls) => cls.startsWith("border-"));
-    if (borderClass) {
-      let borderWidth = parseInt(borderClass.split("-")[1], 10);
-      if (!isNaN(borderWidth)) {
-        element.style.border = `${borderWidth}px solid black`;
-      }
-    }
-  });
-  document.querySelectorAll('[class*="fsize-"]').forEach(function(element) {
-    let fontSizeClass = Array.from(element.classList).find((cls) => cls.startsWith("fsize-"));
-    if (fontSizeClass) {
-      let size = parseInt(fontSizeClass.split("-")[1], 10);
-      if (!isNaN(size)) {
-        element.style.fontSize = `${size}px`;
-      } else {
-        element.style.fontSize = size;
-      }
-    }
-  });
-  document.querySelectorAll('[class*="col-"]').forEach(function(element) {
-    let colClass = Array.from(element.classList).find((cls) => cls.startsWith("col-"));
-    element.style.color = colClass.split("-")[1].trim();
-  });
-}
-
-// Utilities/src/index.js
-applyDynamic();
 document.addEventListener("DOMContentLoaded", () => {
-  applyDynamic();
+  // * load CSS dynamically
+  const loadCSS = (href) => {
+    const link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = href;
+    document.head.appendChild(link);
+  };
+
+  // *Load the utility CSS file
+  loadCSS("../dist/fluentui.min.css");
+
+  // *map for utility classes to CSS properties
+  const styleMap = {
+    "ta-": "text-align",
+    "bgc-": "background-color",
+    "bgp-": "background-position",
+    "bgs-": "background-size",
+    "bgr-": "background-repeat",
+    "bga-": "background-attachment",
+    "bgb-": "background-blend-mode",
+    "border-c-": "border-color",
+    "border-s-": "border-style",
+    "border-w-": "border-width",
+    "border-r-": "border-radius",
+    "b-shadow-": "box-shadow",
+    "tc-": "color",
+    "d-": "display",
+    "flex-d-": "flex-direction",
+    "jc-": "justify-content",
+    "ai-": "align-items",
+    "ac-": "align-content",
+    "flex-w-": "flex-wrap",
+    "flex-g-": "flex-grow",
+    "flex-s-": "flex-shrink",
+    "order-": "order",
+    "tf-": "font-family",
+    "t-": "font-size",
+    "fw-": "font-weight",
+    "fs-": "font-style",
+    "fv-": "font-variant",
+    "fstr-": "font-stretch",
+    "lh-": "line-height",
+    "mt-": "margin-top",
+    "mr-": "margin-right",
+    "mb-": "margin-bottom",
+    "ml-": "margin-left",
+    "of-": "overflow",
+    "pos-": "position",
+    "w-": "width",
+    "v-": "visibility",
+    "zi-": "z-index",
+    "l-": "list-style-type",
+    "lp-": "list-style-position",
+    "ofw-": "overflow-wrap",
+    "tof-": "text-overflow",
+    "tb-": "table-layout",
+    "wb-": "word-break",
+  };
+  // *Function to apply dynamic styles
+  const applyDynamicStyles = () => {
+    // *Get all elements in the document
+    const allElements = document.querySelectorAll("*");
+
+    allElements.forEach((element) => {
+      const classList = element.classList;
+
+      classList.forEach((className) => {
+        // *Check each prefix in the style map
+        for (const [prefix, property] of Object.entries(styleMap)) {
+          if (className.startsWith(prefix)) {
+            // *Extract the value from the class name
+            const value = className.replace(`${prefix}(`, "").replace(")", "");
+
+            // *Apply the style to the element
+            element.style[property] = value;
+          }
+        }
+      });
+    });
+  };
+
+  // *Apply styles after the CSS file is loaded
+  const observer = new MutationObserver(() => {
+    applyDynamicStyles();
+  });
+
+  observer.observe(document.body, { childList: true, subtree: true });
+
+  // *Initial call to apply styles
+  applyDynamicStyles();
 });

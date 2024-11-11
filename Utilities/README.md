@@ -4,6 +4,7 @@ ta = text-align
 
 ### Background
 
+bgc = Background-color
 bgp = Background-position
 bgs = background-size
 bgr = background-repeat
