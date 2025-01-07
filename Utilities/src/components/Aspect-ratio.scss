@@ -1,0 +1,9 @@
+@use "../Utils/variables.scss" as *;
+//* Generate aspect ratio classes
+@mixin aspect-ratio-classes {
+  @each $name, $ratio in $aspect-ratios {
+    .aspect-#{$name} {
+      aspect-ratio: #{$ratio};
+    }
+  }
+}

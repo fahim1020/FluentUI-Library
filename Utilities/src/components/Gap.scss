@@ -1,0 +1,8 @@
+@use "../Utils/variables.scss" as *;
+@mixin gap-classes {
+  @each $index, $value in $gap-values {
+    .gap-#{$index} {
+      gap: #{$value};
+    }
+  }
+}

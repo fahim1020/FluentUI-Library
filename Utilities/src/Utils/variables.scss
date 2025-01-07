@@ -700,13 +700,13 @@ $opacity: (
 $break-values: (
   normal: normal,
   word: word,
-  all: all
+  all: all,
 );
 // *word-break
 $word-break-values: (
   normal: normal,
   break-all: break-all,
-  keep-all: keep-all
+  keep-all: keep-all,
 );
 // *align-self
 $align-self-values: (
@@ -715,5 +715,278 @@ $align-self-values: (
   flex-end: flex-end,
   center: center,
   baseline: baseline,
-  stretch: stretch
+  stretch: stretch,
 );
+// *justify-self
+$justify-values: (auto, start, end, center, stretch);
+
+//* _columns-variables
+$column-values: (
+  "1-1": "1 100px",
+  "2-2": "2 200px",
+  "3-3": "3 300px",
+  "4-4": "4 150px",
+  "5-5": "5 100px",
+  "6-6": "6 250px",
+  "7-7": "7 200px",
+  "8-8": "8 300px",
+  "9-9": "9 400px",
+  "10-10": "10 500px",
+  "11-11": "11 600px",
+  "12-12": "12 700px",
+  "13-13": "13 800px",
+  "14-14": "14 900px",
+  "15-15": "15 1000px",
+  "16-16": "16 1100px",
+  "17-17": "17 1200px",
+  "18-18": "18 1300px",
+  "19-19": "19 1400px",
+  "20-auto": "auto auto",
+);
+
+// Column count values
+$column-count-values: (
+  "1": 1,
+  "2": 2,
+  "3": 3,
+  "4": 4,
+  "auto": auto,
+);
+
+// Column gap values
+$column-gap-values: (
+  "0": 0,
+  "2": 4px,
+  "4": 8px,
+  "6": 16px,
+  "8": 32px,
+);
+
+// Column width values
+$column-width-values: (
+  "1": 100px,
+  "2": 200px,
+  "3": 300px,
+  "4": 400px,
+  "5": 500px,
+  "6": 600px,
+  "7": 700px,
+  "8": 800px,
+  "9": 900px,
+  "10": 100px,
+  "auto": auto,
+);
+
+// * Grid Template Columns
+$grid-template-columns-values: (
+  "1fr": "1fr",
+  "2fr": "2fr",
+  "repeat-1": "repeat(1, 1fr)",
+  "repeat-2": "repeat(2, 1fr)",
+  "repeat-3": "repeat(3, 1fr)",
+  "repeat-4": "repeat(4, 1fr)",
+  "repeat-5": "repeat(5, 1fr)",
+  "repeat-6": "repeat(6, 1fr)",
+  "repeat-7": "repeat(7, 1fr)",
+  "repeat-8": "repeat(8, 1fr)",
+  "repeat-9": "repeat(9, 1fr)",
+  "repeat-10": "repeat(10, 1fr)",
+);
+
+// * Grid Template Rows
+$grid-template-rows-values: (
+  "1fr": "1fr",
+  "2fr": "2fr",
+  "repeat-1": "repeat(1, 1fr)",
+  "repeat-2": "repeat(2, 1fr)",
+  "repeat-3": "repeat(3, 1fr)",
+  "repeat-4": "repeat(4, 1fr)",
+  "repeat-5": "repeat(5, 1fr)",
+  "repeat-6": "repeat(6, 1fr)",
+  "repeat-7": "repeat(7, 1fr)",
+  "repeat-8": "repeat(8, 1fr)",
+  "repeat-9": "repeat(9, 1fr)",
+  "repeat-10": "repeat(10, 1fr)",
+);
+
+// * Grid Area
+$grid-area-values: (
+  "header": "header",
+  "main": "main",
+  "sidebar": "sidebar",
+  "footer": "footer",
+  "auto": "auto",
+);
+
+// * Grid Column / Row
+$grid-column-values: (
+  "1": "1",
+  "1-3": "1 / 3",
+  "2-4": "2 / 4",
+  "auto": "auto",
+);
+// * Justify Items
+$justify-items-values: (
+  "start": "start",
+  "end": "end",
+  "center": "center",
+  "stretch": "stretch",
+);
+//* Gap values
+$gap-values: (
+  0: 1px,
+  1: 2px,
+  2: 4px,
+  3: 8px,
+  4: 12px,
+  5: 16px,
+  6: 20px,
+  7: 24px,
+  8: 32px,
+  9: 40px,
+  10: 1rem,
+  11: 2rem,
+  12: 3rem,
+);
+
+// * Define Filter Values for Each Property
+$filter-values: (
+  "blur": (
+    "0": "0px",
+    "1": "2px",
+    "2": "4px",
+    "3": "6px",
+    "4": "8px",
+    "5": "10px",
+  ),
+  "brightness": (
+    "0": "50%",
+    "1": "75%",
+    "2": "100%",
+    "3": "125%",
+    "4": "150%",
+  ),
+  "contrast": (
+    "0": "50%",
+    "1": "75%",
+    "2": "100%",
+    "3": "125%",
+    "4": "150%",
+  ),
+  "dropshadow": (
+    "0": "0px 0px 0px black",
+    "1": "2px 2px 2px black",
+    "2": "4px 4px 4px black",
+    "3": "6px 6px 6px black",
+    "4": "8px 8px 8px black",
+  ),
+  "grayscale": (
+    "0": "0%",
+    "1": "25%",
+    "2": "50%",
+    "3": "75%",
+    "4": "100%",
+  ),
+  "huerotate": (
+    "0": "0deg",
+    "1": "45deg",
+    "2": "90deg",
+    "3": "135deg",
+    "4": "180deg",
+  ),
+  "invert": (
+    "0": "0%",
+    "1": "25%",
+    "2": "50%",
+    "3": "75%",
+    "4": "100%",
+  ),
+  "opacity": (
+    "0": "25%",
+    "1": "50%",
+    "2": "75%",
+    "3": "100%",
+  ),
+  "saturate": (
+    "0": "50%",
+    "1": "100%",
+    "2": "150%",
+    "3": "200%",
+  ),
+  "sepia": (
+    "0": "0%",
+    "1": "25%",
+    "2": "50%",
+    "3": "75%",
+    "4": "100%",
+  ),
+);
+// *Define a variable for the resize values
+$resize-values: (
+  none: none,
+  xy: both,
+  x: horizontal,
+  y: vertical,
+);
+
+// *Define a variable for pointer-events values
+$pointer-events-values: (
+  auto: auto,
+  none: none,
+  visible: visible,
+  all: all,
+);
+
+// *Define a variable for object-fit values
+$object-fit-values: (
+  fill: fill,
+  contain: contain,
+  cover: cover,
+  none: none,
+  scale-down: scale-down,
+);
+
+//* Define stroke colors
+$stroke-colors: (
+  red: red,
+  blue: blue,
+  green: green,
+  black: black,
+  white: white,
+);
+
+//* Define stroke widths
+$stroke-widths: (
+  sm: 1px,
+  md: 2px,
+  lg: 4px,
+  xl: 6px,
+);
+
+//* Define aspect ratios
+$aspect-ratios: (
+  square: 1 / 1,
+  landscape: 16 / 9,
+  portrait: 9 / 16,
+  golden: 1.618 / 1,
+  widescreen: 21 / 9,
+);
+
+//* Define scrollbar widths, colors, and styles
+$scrollbar-widths: (
+  small: 8px,
+  medium: 12px,
+  large: 16px,
+);
+$scrollbar-colors: (
+  primary: #3498db,
+  secondary: #2ecc71,
+  danger: #e74c3c,
+);
+// $scrollbar-styles: (solid, dotted, dashed);
+
+// *Define touch-action values
+$touch-actions: (auto, manipulation, none, pan-x, pan-y, pinch-zoom);
+
+// *Define writing-mode values
+$writing-modes: (x-tb, x-rl, y-lr);

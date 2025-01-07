@@ -4,19 +4,19 @@
 @mixin border-classes {
   // *loop for border color
   @each $color in $colors {
-    .border-c-#{$color} {
+    .border-#{$color} {
       border-color: $color;
     }
   }
   // *loop for border styles
   @each $style in $border-styles {
-    .border-s-#{$style} {
+    .border-#{$style} {
       border-style: $style;
     }
   }
   // *dynamically generate border width classes
   @each $key, $value in $sizes {
-    .border-w-#{$key} {
+    .border-#{$key} {
       border-width: $value;
     }
   }

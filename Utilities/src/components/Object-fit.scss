@@ -1,0 +1,9 @@
+@use "../Utils/variables.scss" as *;
+//* Generate object-fit classes using a loop
+@mixin object-fit-classes {
+  @each $key, $value in $object-fit-values {
+    .o-#{$key} {
+      object-fit: #{$value};
+    }
+  }
+}

@@ -1,0 +1,58 @@
+@use "../Utils/variables.scss" as *;
+@mixin grid-classes{
+  // *Generate classes for grid-template-columns
+  @each $key, $value in $grid-template-columns-values {
+    .grid-cols-#{$key} {
+      grid-template-columns: #{$value};
+    }
+  }
+
+  // *Generate classes for grid-template-rows
+  @each $key, $value in $grid-template-rows-values {
+    .grid-rows-#{$key} {
+      grid-template-rows: #{$value};
+    }
+  }
+
+  // *Generate classes for grid-area
+  @each $key, $value in $grid-area-values {
+    .grid-area-#{$key} {
+      grid-area: #{$value};
+    }
+  }
+
+  // *Generate classes for grid-column
+  @each $key, $value in $grid-column-values {
+    .grid-col-#{$key} {
+      grid-column: #{$value};
+    }
+  }
+
+  // *Generate classes for grid-row
+  @each $key, $value in $grid-column-values {
+    .grid-row-#{$key} {
+      grid-row: #{$value};
+    }
+  }
+
+  // *Generate classes for justify-items
+  @each $key, $value in $justify-items-values {
+    .ji-#{$key} {
+      justify-items: #{$value};
+    }
+  }
+
+  // * Generate Grid Row Gap Classes
+  @each $index, $value in $gap-values {
+    .r-gap-#{$index} {
+      row-gap: #{$value};
+    }
+  }
+
+  // * Generate Grid Column Gap Classes
+  @each $index, $value in $gap-values {
+    .c-gap-#{$index} {
+      column-gap: #{$value};
+    }
+  }
+}

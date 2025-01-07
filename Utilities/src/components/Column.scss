@@ -1,0 +1,32 @@
+// Import variables
+@use "../Utils/variables.scss" as *;
+
+@mixin column-classes {
+  // Generate column utilities
+  @each $key, $value in $column-values {
+    .col-#{$key} {
+      column: #{$value};
+    }
+  }
+
+  // Generate column-count utilities
+  @each $key, $value in $column-count-values {
+    .col-count-#{$key} {
+      column-count: #{$value};
+    }
+  }
+
+  // Generate column-gap utilities
+  @each $key, $value in $column-gap-values {
+    .col-g-#{$key} {
+      column-gap: #{$value};
+    }
+  }
+
+  // Generate column-width utilities
+  @each $key, $value in $column-width-values {
+    .col-w-#{$key} {
+      column-width: #{$value};
+    }
+  }
+}

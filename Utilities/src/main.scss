@@ -29,10 +29,22 @@
 @use "./components/Fill.scss" as *;
 @use "./components/Opacity.scss" as *;
 @use "./components/Word-Break.scss" as *;
+@use "./components/Justify-self.scss" as *;
+@use "./components/Column.scss" as *;
+@use "./components/Grid.scss" as *;
+@use "./components/Gap.scss" as *;
+@use "./components/Filter.scss" as *;
+@use "./components/Resize.scss" as *;
+@use "./components/Pointer-event.scss" as *;
+@use "./components/Object-fit.scss" as *;
+@use "./components/Stroke.scss" as *;
+@use "./components/Aspect-ratio.scss" as *;
+@use "./components/Scroll-bar.scss" as *;
+@use "./components/Touch-action.scss" as *;
+@use "./components/Writing-mode.scss" as *;
 
 // *Call alignment component
 @include alignment-classes;
-
 // *Call background component
 @include background-classes;
 // *Call background-blend component
@@ -85,3 +97,29 @@
 @include opacity-classes;
 // *Call word-break component
 @include word-break-classes;
+// *Call justify-self component
+@include justify-self-classes;
+// *Call justify-self component
+@include column-classes;
+// *Call Grid component
+@include grid-classes;
+// *Call Gap component
+@include gap-classes;
+// *Call Filter component
+@include filter-classes;
+// *Call resize component
+@include resize-classes;
+// *Call pointer-event component
+@include pointer-events-classes;
+// *Call Object-fit component
+@include object-fit-classes;
+// *Call Stroke component
+@include stroke-classes;
+// *Call Aspect-ratio component
+@include aspect-ratio-classes;
+// *Call Scroll-bar component
+@include scrollbar-classes;
+// *Call Touch-action component
+@include touch-action-classes;
+// *Call Writing mode component
+@include writing-mode-classes;

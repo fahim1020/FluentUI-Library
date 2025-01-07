@@ -1,0 +1,9 @@
+@use "../Utils/variables.scss" as *;
+// *Generate pointer-events classes using a loop
+@mixin pointer-events-classes {
+  @each $key, $value in $pointer-events-values {
+    .pe-#{$key} {
+      pointer-events: #{$value};
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@use "../Utils/variables.scss" as *;
+//* Generate stroke classes
+@mixin stroke-classes {
+  // Generate stroke color classes
+  @each $name, $color in $stroke-colors {
+    .st-#{$name} {
+      stroke: #{$color};
+    }
+  }
+
+  // Generate stroke width classes
+  @each $name, $width in $stroke-widths {
+    .st-w-#{$name} {
+      stroke-width: #{$width};
+    }
+  }
+}

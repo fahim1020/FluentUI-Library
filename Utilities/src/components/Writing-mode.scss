@@ -1,0 +1,8 @@
+@use "../Utils/variables.scss" as *;
+@mixin writing-mode-classes {
+  @each $mode in $writing-modes {
+    .writing-#{$mode} {
+      writing-mode: #{$mode};
+    }
+  }
+}

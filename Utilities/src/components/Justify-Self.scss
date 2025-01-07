@@ -1,0 +1,9 @@
+@use "../Utils/variables.scss" as *;
+
+@mixin justify-self-classes {
+  @each $value in $justify-values {
+    .js-#{$value} {
+      justify-self: #{$value};
+    }
+  }
+}

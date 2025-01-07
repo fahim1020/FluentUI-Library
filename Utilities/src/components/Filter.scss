@@ -1,0 +1,11 @@
+@use "../Utils/variables.scss" as *;
+// * Generate Filter Classes for Each Property
+@mixin filter-classes {
+  @each $filter, $values in $filter-values {
+    @each $key, $value in $values {
+      .f-#{$filter}-#{$key} {
+        filter: #{$filter }(#{$value});
+      }
+    }
+  }
+}

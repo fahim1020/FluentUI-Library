@@ -1,0 +1,8 @@
+@use "../Utils/variables.scss" as *;
+@mixin touch-action-classes {
+  @each $action in $touch-actions {
+    .touch-#{$action} {
+      touch-action: #{$action};
+    }
+  }
+}

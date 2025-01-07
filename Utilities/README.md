@@ -37,6 +37,7 @@ d = display
 
 flex-d = flex-direction
 jc = justify-content
+js = justify-self
 ai= align-items
 ac = align-content
 flex-w = flex-wrap
@@ -66,7 +67,6 @@ ml = margin-left
 
 of = overflow
 
-
 ### Position
 
 pos = position
@@ -74,6 +74,10 @@ pos = position
 ### width
 
 w = width
+
+### height
+
+h = height
 
 ### Visibility
 
@@ -89,14 +93,67 @@ l = list
 lp = list-position
 
 ### overflow-wrap
+
 ofw = overflow-wrap
 
 ### text-overflow
+
 tof = text-overflow
 
 ### table
+
 tb = table
 
 ### word-break
+
 wb = word-break
 
+### Column
+
+col = column
+col-w = column-width
+col-count = column-count
+col-g = column-gap
+
+
+### Grid
+grid-cols = grid-template-columns
+grid-rows = grid-template-rows
+grid-col = grid-column
+grid-row =grid-row
+grid-area = grid-area
+ji = justify-items
+r-gap= row-gap
+c-gap= column-gap
+
+### Gap
+gap = gap
+
+### Filter
+f = filter
+
+### Resize
+rs = resize
+
+### Pointer-events
+pe = pointer-events
+
+### Object-fit
+o = object-fit
+
+### Stroke
+st = stroke
+st-w = stroke-width
+
+### Aspect ratio
+aspect = aspect-ratio
+
+### Scroll bar
+scrollbar-w = scrollbar-width
+scrollbar-c =scrollbar-color
+
+### Touch action
+touch = touch-action
+
+### Writing mode
+writing = writing-mode

@@ -1,0 +1,30 @@
+@use "../Utils/variables.scss" as *;
+
+// Generate scrollbar width classes
+@mixin scrollbar-classes {
+  @each $name, $width in $scrollbar-widths {
+    .scrollbar-w-#{$name} {
+      scrollbar-width: #{$width};
+    }
+  }
+
+  // Generate scrollbar color classes
+
+  @each $name, $color in $scrollbar-colors {
+    .scrollbar-c-#{$name} {
+      scrollbar-color: #{$color} transparent;
+    }
+  }
+}
+
+// // Generate scrollbar style classes
+// @mixin scrollbar-style-classes {
+//   @each $style in $scrollbar-styles {
+//     .scrollbar-style-#{$style} {
+//       scrollbar-style: #{$style};
+//     }
+//   }
+// }
+
+// Include the mixins to generate the classes
+@include scrollbar-classes;

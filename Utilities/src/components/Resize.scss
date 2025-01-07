@@ -1,0 +1,9 @@
+@use "../Utils/variables.scss" as *;
+// *Generate resize classes using a loop
+@mixin resize-classes {
+  @each $key, $value in $resize-values {
+    .rs-#{$key} {
+      resize: #{$value};
+    }
+  }
+}
